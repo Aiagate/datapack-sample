@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    [
-      "minecraft:stick"
-    ]
-  ],
   "pattern": [
     "A",
     "B",
@@ -23,19 +18,16 @@
     ]
   },
   "result": {
-    "id": "minecraft:carrot_on_a_stick",
+    "id": "minecraft:crossbow",
     "components": {
-      "minecraft:custom_model_data": {
-        "floats": [
-          1
-        ],
-        "flags": []
-      },
       "minecraft:custom_name": {
         "text": "Magic Wand",
         "underlined": true
       },
-      "minecraft:unbreakable": {}
+      "minecraft:unbreakable": {},
+      "minecraft:custom_data": {
+        "item_type": "magic_wand"
+      }
     },
     "count": 1
   },

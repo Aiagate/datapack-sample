@@ -1,0 +1,2 @@
+summon minecraft:fireball ^ ^ ^.5 {ExplosionPower:1,Fire:1b,acceleration_power:1d}
+data modify entity @e[type=minecraft:fireball,limit=1] Motion set from entity @e[type=minecraft:player,limit=1,sort=nearest] Pos

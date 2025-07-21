@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "MagicWamd_R-Click": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:crossbow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom_item:revoke_magicwand"
+  }
+}
