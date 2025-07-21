@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:stick"
+    ]
+  ],
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "key": {
+    "A": [
+      "minecraft:blaze_powder"
+    ],
+    "B": [
+      "minecraft:stick"
+    ],
+    "C": [
+      "minecraft:end_rod"
+    ]
+  },
+  "result": {
+    "id": "minecraft:carrot_on_a_stick",
+    "components": {
+      "minecraft:custom_model_data": {
+        "floats": [
+          1
+        ],
+        "flags": []
+      },
+      "minecraft:custom_name": {
+        "text": "Magic Wand",
+        "underlined": true
+      },
+      "minecraft:unbreakable": {}
+    },
+    "count": 1
+  },
+  "show_notification": false
+}
